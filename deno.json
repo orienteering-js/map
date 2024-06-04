@@ -1,0 +1,12 @@
+{
+  "name": "@orienteering-js/map",
+  "version": "0.1.0",
+  "exports": "./src/mod.ts",
+  "compilerOptions": {
+    "lib": ["deno.ns", "dom"],
+    "verbatimModuleSyntax": true
+  },
+  "imports": {
+    "mathjs": "npm:mathjs@^13.0.0"
+  }
+}
